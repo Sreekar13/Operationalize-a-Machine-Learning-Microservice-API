@@ -5,6 +5,7 @@
 
 # Step 1:
 # Create dockerpath
+sudo docker login
 dockerpath=sv739/udacity-model:1.0
 
 # Step 2:  
