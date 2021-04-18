@@ -12,4 +12,4 @@ sudo docker images
 
 # Step 3: 
 # Run flask app
-sudo docker run -it --name model_sample -p 8000:80 model:1.0
+sudo docker run -it --name model_sample -p 8000:80 model:1.0 > docker_out.txt
