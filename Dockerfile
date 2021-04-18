@@ -14,7 +14,7 @@ COPY model_data/* /model_data/
 # Install packages from requirements.txt
 # hadolint ignore=DL3013
 COPY requirements.txt /model/requirements.txt
-RUN pip install -r /model/requirements.txt
+RUN pip install --no-cache-dir -r /model/requirements.txt
 
 ## Step 4:
 # Expose port 80
