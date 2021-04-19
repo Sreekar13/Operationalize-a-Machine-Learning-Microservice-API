@@ -32,9 +32,6 @@ jobs:
       # run lint!
       - run:
           name: run lint
-          - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "requirements.txt" }}
           command: |
             . venv/bin/activate
             pip install pylint
