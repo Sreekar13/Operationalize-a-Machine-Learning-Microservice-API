@@ -33,6 +33,7 @@ jobs:
       - run:
           name: run lint
           command: |
-            . venv/bin/activate
+            #. venv/bin/activate
             pip install pylint==2.4.4
-            make lint 
+            #make lint 
+            pylint --disable=R,C,W1203 app.py
