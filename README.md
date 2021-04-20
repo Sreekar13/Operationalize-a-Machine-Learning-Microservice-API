@@ -42,10 +42,10 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Run via kubectl
 
 
-Files:
-.circle -> Has the config file for CircleCI
-docker_out.txt -> Output of docker logs
-kubernetes_out.txt -> Output of kubernetes logs
-upload_docker.sh -> Uploading image to docker hub
-Dockerfile -> Docker file to build the image
+### Files:
+* .circle -> Has the config file for CircleCI
+* docker_out.txt -> Output of docker logs
+* kubernetes_out.txt -> Output of kubernetes logs
+* upload_docker.sh -> Uploading image to docker hub
+* Dockerfile -> Docker file to build the image
 
