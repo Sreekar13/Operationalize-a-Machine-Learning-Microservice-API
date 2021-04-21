@@ -15,9 +15,9 @@ kubectl run modeldemo \
 
 # Step 3:
 # List kubernetes pods
+sleep 30
 kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-sleep 30
-kubectl port-forward modeldemo 8000:80
+kubectl port-forward modeldemo 8000:80 > kubernetes_out.txt
