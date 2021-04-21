@@ -1,7 +1,5 @@
 version: 2
 jobs:
-  orbs:
-    docker: circleci/docker
   build:
     docker:
     # Use the same Docker base as the project
